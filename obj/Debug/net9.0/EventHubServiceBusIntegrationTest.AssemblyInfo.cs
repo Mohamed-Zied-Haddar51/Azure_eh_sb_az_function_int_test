@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventHubServiceBusIntegrationTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a5e0d9dbb6276686fa46703c57ac5123c4e166f")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventHubServiceBusIntegrationTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventHubServiceBusIntegrationTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
