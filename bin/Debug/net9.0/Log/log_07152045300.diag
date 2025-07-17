@@ -1,0 +1,40 @@
+2025-07-15T20:21:45.3058594+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.4.3+c252b64ad913ea9411fc5d17bfd5580d2d061497
+2025-07-15T20:21:45.3253223+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-07-15T20:21:45.3263727+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-07-15T20:21:45.3263778+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 20:21:45.282
+2025-07-15T20:21:45.3278736+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 2488
+2025-07-15T20:21:45.3279034+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 9.0.7
+2025-07-15T20:21:45.3279183+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.7\System.Private.CoreLib.dll
+2025-07-15T20:21:45.3279260+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-07-15T20:21:45.3279284+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\MohamedZiedH\Desktop\tests\bin\Debug\net9.0\EventHubServiceBusIntegrationTest.dll
+2025-07-15T20:21:45.3280145+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\MohamedZiedH\Desktop\tests\bin\Debug\net9.0\Log --results-directory C:\Users\MohamedZiedH\Desktop\tests\TestResults --client-port 57797'
+2025-07-15T20:21:45.3292939+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-07-15T20:21:45.3436648+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-07-15T20:21:45.3468685+00:00 Microsoft.Testing.Platform.Configurations.JsonConfigurationSource+JsonConfigurationProvider INFORMATION Config file 'C:\Users\MohamedZiedH\Desktop\tests\bin\Debug\net9.0\EventHubServiceBusIntegrationTest.testconfig.json' not found.
+2025-07-15T20:21:45.3482155+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable:  VSTest mode: False
+2025-07-15T20:21:45.5125371+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: '30ea7c6e-dd24-4152-a360-1387158cd41d' Version: '1.0.0' DisplayName: 'xUnit.net v3 Microsoft.Testing.Platform test framework' Description: 'xUnit.net v3 Microsoft.Testing.Platform test framework'
+2025-07-15T20:21:45.5186357+00:00 xUnit.net INFORMATION xUnit.net v3 In-Process Runner v1.0.0+5b41c61aa1 (64-bit .NET 9.0.7)
+2025-07-15T20:21:45.5475591+00:00 xUnit.net INFORMATION   Discovering: EventHubServiceBusIntegrationTest
+2025-07-15T20:21:45.5662319+00:00 xUnit.net INFORMATION   Discovered:  EventHubServiceBusIntegrationTest
+2025-07-15T20:21:45.5812750+00:00 xUnit.net INFORMATION   Starting:    EventHubServiceBusIntegrationTest
+2025-07-15T20:21:52.0144320+00:00 xUnit.net ERROR     EventHubToServiceBusIntegrationTest.MessageSentToEventHub_IsReceivedAndForwardedToServiceBus [FAIL]
+2025-07-15T20:21:52.0147187+00:00 xUnit.net INFORMATION       System.InvalidOperationException : cannot hijack chunked or content length stream
+2025-07-15T20:21:52.0150250+00:00 xUnit.net INFORMATION       Stack Trace:
+2025-07-15T20:21:52.0153290+00:00 xUnit.net INFORMATION         /_/src/Docker.DotNet/Microsoft.Net.Http.Client/HttpConnectionResponseContent.cs(37,0): at Microsoft.Net.Http.Client.HttpConnectionResponseContent.HijackStream()
+2025-07-15T20:21:52.0153564+00:00 xUnit.net INFORMATION         /_/src/Docker.DotNet/DockerClient.cs(400,0): at Docker.DotNet.DockerClient.MakeRequestForHijackedStreamAsync(IEnumerable`1 errorHandlers, HttpMethod method, String path, IQueryString queryString, IRequestContent body, IDictionary`2 headers, TimeSpan timeout, CancellationToken cancellationToken)
+2025-07-15T20:21:52.0153680+00:00 xUnit.net INFORMATION         /_/src/Docker.DotNet/Endpoints/ExecOperations.cs(58,0): at Docker.DotNet.ExecOperations.StartContainerExecAsync(String id, ContainerExecStartParameters parameters, CancellationToken cancellationToken)
+2025-07-15T20:21:52.0153774+00:00 xUnit.net INFORMATION         /_/src/Testcontainers/Clients/DockerContainerOperations.cs(165,0): at DotNet.Testcontainers.Clients.DockerContainerOperations.ExecAsync(String id, IList`1 command, CancellationToken ct)
+2025-07-15T20:21:52.0153898+00:00 xUnit.net INFORMATION         /_/src/Testcontainers.MsSql/MsSqlContainer.cs(74,0): at Testcontainers.MsSql.MsSqlContainer.FindSqlCmdFilePathAsync()
+2025-07-15T20:21:52.0153974+00:00 xUnit.net INFORMATION         /_/src/Testcontainers.MsSql/MsSqlBuilder.cs(143,0): at Testcontainers.MsSql.MsSqlBuilder.WaitUntil.UntilAsync(MsSqlContainer container)
+2025-07-15T20:21:52.0154066+00:00 xUnit.net INFORMATION         /_/src/Testcontainers/Containers/DockerContainer.cs(646,0): at DotNet.Testcontainers.Containers.DockerContainer.CheckReadinessAsync(WaitStrategy waitStrategy, CancellationToken ct)
+2025-07-15T20:21:52.0154229+00:00 xUnit.net INFORMATION         /_/src/Testcontainers/Configurations/WaitStrategies/WaitStrategy.cs(184,0): at DotNet.Testcontainers.Configurations.WaitStrategy.<>c__DisplayClass24_0.<<WaitUntilAsync>g__UntilAsync|0>d.MoveNext()
+2025-07-15T20:21:52.0154255+00:00 xUnit.net INFORMATION         --- End of stack trace from previous location ---
+2025-07-15T20:21:52.0154368+00:00 xUnit.net INFORMATION         /_/src/Testcontainers/Configurations/WaitStrategies/WaitStrategy.cs(213,0): at DotNet.Testcontainers.Configurations.WaitStrategy.WaitUntilAsync(Func`1 wait, TimeSpan interval, TimeSpan timeout, Int32 retries, CancellationToken ct)
+2025-07-15T20:21:52.0154580+00:00 xUnit.net INFORMATION         /_/src/Testcontainers/Containers/DockerContainer.cs(664,0): at DotNet.Testcontainers.Containers.DockerContainer.CheckReadinessAsync(IEnumerable`1 waitStrategies, CancellationToken ct)
+2025-07-15T20:21:52.0154682+00:00 xUnit.net INFORMATION         /_/src/Testcontainers/Containers/DockerContainer.cs(526,0): at DotNet.Testcontainers.Containers.DockerContainer.UnsafeStartAsync(CancellationToken ct)
+2025-07-15T20:21:52.0154806+00:00 xUnit.net INFORMATION         /_/src/Testcontainers/Containers/DockerContainer.cs(309,0): at DotNet.Testcontainers.Containers.DockerContainer.StartAsync(CancellationToken ct)
+2025-07-15T20:21:52.0154880+00:00 xUnit.net INFORMATION         /_/src/Testcontainers/Containers/DockerContainer.cs(303,0): at DotNet.Testcontainers.Containers.DockerContainer.StartAsync(CancellationToken ct)
+2025-07-15T20:21:52.0154978+00:00 xUnit.net INFORMATION         C:\Users\MohamedZiedH\Desktop\tests\EventHubServiceBusTests.cs(108,0): at EventHubToServiceBusIntegrationTest.Xunit.IAsyncLifetime.InitializeAsync()
+2025-07-15T20:21:52.0349266+00:00 xUnit.net INFORMATION   Finished:    EventHubServiceBusIntegrationTest
+2025-07-15T20:21:52.0383197+00:00 xUnit.net INFORMATION === TEST EXECUTION SUMMARY ===
+2025-07-15T20:21:52.0426994+00:00 xUnit.net INFORMATION    EventHubServiceBusIntegrationTest  Total: 1, Errors: 0, Failed: 1, Skipped: 0, Not Run: 0, Time: 6.457s

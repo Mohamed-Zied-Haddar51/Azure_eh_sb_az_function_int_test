@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MohamedZiedH\\Desktop\\tests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8501B217-69A9-F66D-544C-A978F1539104}|EventHubServiceBusIntegrationTest.csproj|c:\\users\\mohamedziedh\\desktop\\tests\\eventhubservicebustests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8501B217-69A9-F66D-544C-A978F1539104}|EventHubServiceBusIntegrationTest.csproj|solutionrelative:eventhubservicebustests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8501B217-69A9-F66D-544C-A978F1539104}|EventHubServiceBusIntegrationTest.csproj|c:\\users\\mohamedziedh\\desktop\\tests\\testcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8501B217-69A9-F66D-544C-A978F1539104}|EventHubServiceBusIntegrationTest.csproj|solutionrelative:testcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8501B217-69A9-F66D-544C-A978F1539104}|EventHubServiceBusIntegrationTest.csproj|c:\\users\\mohamedziedh\\desktop\\tests\\eventhubservicebusintegrationtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8501B217-69A9-F66D-544C-A978F1539104}|EventHubServiceBusIntegrationTest.csproj|solutionrelative:eventhubservicebusintegrationtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventHubServiceBusTests.cs",
+              "DocumentMoniker": "C:\\Users\\MohamedZiedH\\Desktop\\tests\\EventHubServiceBusTests.cs",
+              "RelativeDocumentMoniker": "EventHubServiceBusTests.cs",
+              "ToolTip": "C:\\Users\\MohamedZiedH\\Desktop\\tests\\EventHubServiceBusTests.cs",
+              "RelativeToolTip": "EventHubServiceBusTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T15:09:16.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "testCopy.cs",
+              "DocumentMoniker": "C:\\Users\\MohamedZiedH\\Desktop\\tests\\testCopy.cs",
+              "RelativeDocumentMoniker": "testCopy.cs",
+              "ToolTip": "C:\\Users\\MohamedZiedH\\Desktop\\tests\\testCopy.cs",
+              "RelativeToolTip": "testCopy.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAqwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T15:00:31.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventHubServiceBusIntegrationTest.csproj",
+              "DocumentMoniker": "C:\\Users\\MohamedZiedH\\Desktop\\tests\\EventHubServiceBusIntegrationTest.csproj",
+              "RelativeDocumentMoniker": "EventHubServiceBusIntegrationTest.csproj",
+              "ToolTip": "C:\\Users\\MohamedZiedH\\Desktop\\tests\\EventHubServiceBusIntegrationTest.csproj",
+              "RelativeToolTip": "EventHubServiceBusIntegrationTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-17T14:52:16.562Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

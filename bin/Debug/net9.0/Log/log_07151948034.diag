@@ -1,0 +1,26 @@
+2025-07-15T19:46:48.0389632+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.4.3+c252b64ad913ea9411fc5d17bfd5580d2d061497
+2025-07-15T19:46:48.0545172+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-07-15T19:46:48.0555138+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-07-15T19:46:48.0555175+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 19:46:48.018
+2025-07-15T19:46:48.0570893+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 28724
+2025-07-15T19:46:48.0571161+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 9.0.7
+2025-07-15T19:46:48.0571279+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.7\System.Private.CoreLib.dll
+2025-07-15T19:46:48.0571359+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-07-15T19:46:48.0571381+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\MohamedZiedH\Desktop\tests\bin\Debug\net9.0\EventHubServiceBusIntegrationTest.dll
+2025-07-15T19:46:48.0572244+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\MohamedZiedH\Desktop\tests\bin\Debug\net9.0\Log --results-directory C:\Users\MohamedZiedH\Desktop\tests\TestResults --client-port 56866'
+2025-07-15T19:46:48.0582810+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-07-15T19:46:48.0692086+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-07-15T19:46:48.0723691+00:00 Microsoft.Testing.Platform.Configurations.JsonConfigurationSource+JsonConfigurationProvider INFORMATION Config file 'C:\Users\MohamedZiedH\Desktop\tests\bin\Debug\net9.0\EventHubServiceBusIntegrationTest.testconfig.json' not found.
+2025-07-15T19:46:48.0734531+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable:  VSTest mode: False
+2025-07-15T19:46:48.2133728+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: '30ea7c6e-dd24-4152-a360-1387158cd41d' Version: '1.0.0' DisplayName: 'xUnit.net v3 Microsoft.Testing.Platform test framework' Description: 'xUnit.net v3 Microsoft.Testing.Platform test framework'
+2025-07-15T19:46:48.2190136+00:00 xUnit.net INFORMATION xUnit.net v3 In-Process Runner v1.0.0+5b41c61aa1 (64-bit .NET 9.0.7)
+2025-07-15T19:46:48.2431339+00:00 xUnit.net INFORMATION   Discovering: EventHubServiceBusIntegrationTest
+2025-07-15T19:46:48.2578490+00:00 xUnit.net INFORMATION   Discovered:  EventHubServiceBusIntegrationTest
+2025-07-15T19:46:48.2700944+00:00 xUnit.net INFORMATION   Starting:    EventHubServiceBusIntegrationTest
+2025-07-15T19:46:48.4689970+00:00 xUnit.net ERROR     EventHubToServiceBusIntegrationTest.MessageSentToEventHub_IsReceivedAndForwardedToServiceBus [FAIL]
+2025-07-15T19:46:48.4692968+00:00 xUnit.net INFORMATION       System.NotImplementedException : The method or operation is not implemented.
+2025-07-15T19:46:48.4696049+00:00 xUnit.net INFORMATION       Stack Trace:
+2025-07-15T19:46:48.4699126+00:00 xUnit.net INFORMATION         C:\Users\MohamedZiedH\Desktop\tests\EventHubServiceBusTests.cs(107,0): at EventHubToServiceBusIntegrationTest.Xunit.IAsyncLifetime.InitializeAsync()
+2025-07-15T19:46:48.4782942+00:00 xUnit.net INFORMATION   Finished:    EventHubServiceBusIntegrationTest
+2025-07-15T19:46:48.4820822+00:00 xUnit.net INFORMATION === TEST EXECUTION SUMMARY ===
+2025-07-15T19:46:48.4864706+00:00 xUnit.net INFORMATION    EventHubServiceBusIntegrationTest  Total: 1, Errors: 0, Failed: 1, Skipped: 0, Not Run: 0, Time: 0.211s
