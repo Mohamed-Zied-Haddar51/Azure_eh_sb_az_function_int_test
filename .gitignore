@@ -1,3 +1,4 @@
-/obj
-/debug
-/TestResults
+obj/
+bin/
+TestResults/
+vs/

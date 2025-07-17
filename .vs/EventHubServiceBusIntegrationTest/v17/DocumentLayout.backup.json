@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\MohamedZiedH\\Desktop\\tests\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8501B217-69A9-F66D-544C-A978F1539104}|EventHubServiceBusIntegrationTest.csproj|c:\\users\\mohamedziedh\\desktop\\tests\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8501B217-69A9-F66D-544C-A978F1539104}|EventHubServiceBusIntegrationTest.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8501B217-69A9-F66D-544C-A978F1539104}|EventHubServiceBusIntegrationTest.csproj|c:\\users\\mohamedziedh\\desktop\\tests\\eventhubservicebustests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8501B217-69A9-F66D-544C-A978F1539104}|EventHubServiceBusIntegrationTest.csproj|solutionrelative:eventhubservicebustests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,19 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\MohamedZiedH\\Desktop\\tests\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\MohamedZiedH\\Desktop\\tests\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-17T17:07:00.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EventHubServiceBusTests.cs",
               "DocumentMoniker": "C:\\Users\\MohamedZiedH\\Desktop\\tests\\EventHubServiceBusTests.cs",
               "RelativeDocumentMoniker": "EventHubServiceBusTests.cs",
               "ToolTip": "C:\\Users\\MohamedZiedH\\Desktop\\tests\\EventHubServiceBusTests.cs",
               "RelativeToolTip": "EventHubServiceBusTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T15:09:16.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "testCopy.cs",
               "DocumentMoniker": "C:\\Users\\MohamedZiedH\\Desktop\\tests\\testCopy.cs",
               "RelativeDocumentMoniker": "testCopy.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EventHubServiceBusIntegrationTest.csproj",
               "DocumentMoniker": "C:\\Users\\MohamedZiedH\\Desktop\\tests\\EventHubServiceBusIntegrationTest.csproj",
               "RelativeDocumentMoniker": "EventHubServiceBusIntegrationTest.csproj",
